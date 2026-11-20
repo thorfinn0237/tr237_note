@@ -1,0 +1,15 @@
+name: tr237_note
+version: '1.0'
+main: tr237.tr237_note.Tr237_note
+api-version: '1.21.4'
+description: 'Persistent personal note plugin for players.'
+
+commands:
+  note:
+    description: 'Save, view, or clear your personal note'
+    usage: '/note <set|view|clear|reload>'
+
+permissions:
+  tr237note.admin:
+    description: 'Allows reloading the plugin configuration'
+    default: op
